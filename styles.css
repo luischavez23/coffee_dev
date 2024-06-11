@@ -1,0 +1,64 @@
+/* Reset */
+*{
+    padding: 0;
+    margin: 0;
+}
+/*Typography*/
+@import url('https://fonts.googleapis.com/css2?family=Anek+Devanagari:wdth,wght@101.1,600&family=Roboto:wght@400;700;900&display=swap');
+
+
+/* Colors*/
+:root{
+    --black: #000000;
+    --white: #FFFFFF;
+    --primary__color: #765827;
+    --secondary__color: #C8AE7D;
+    --third__color: #EAC696;
+    --text__color: #65451F;
+}
+
+body{
+    font-family: "Roboto", sans-serif;
+}
+
+nav{
+    background-color: var(--primary__color);
+    color: var(--white);
+    height: 80px;
+}
+
+label.logo{
+    font-size: 36px;
+    line-height: 80px;
+    padding: 0 15px;
+    font-family: "Anek Devanagari", sans-serif;
+    font-weight: 600; 
+}
+
+label.logo:hover{
+    color: var(--secondary__color);
+    transition: all .5s;
+}
+
+nav ul{
+    float: right;
+    margin-right: 15px;
+}
+
+nav ul li {
+    display: inline-block;
+    line-height: 80px;
+    list-style: none;
+    margin: 0 10px;
+
+}
+
+nav ul li a{
+    color: var(--white);
+    text-decoration: none;
+}
+
+a:hover{
+    color: var(--secondary__color);
+    transition: all .5s;
+}
